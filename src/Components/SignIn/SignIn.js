@@ -14,11 +14,11 @@ import {
 function SignIn() {
   return (
     <div>
-       <Row className='fluid' >
-           <Col  className='me-1 ms-4 ' md="2" style={{background:'red'}}>
-               <p className='p-1'>Login</p>
+       <Row className='' style={{width:'100%'}}>
+           <Col  className=''  style={{background:'#0eb7a0',width:'100%'}}>
+               <p className='py-2 ms-2'style={{color:'white',fontsize:'24px'}}>Login</p>
                </Col>
-           <Col md="1" style={{background:'green'}}>Column2</Col>
+           {/* <Col md="1" style={{background:'green'}}>Column2</Col> */}
        </Row>
       
     </div>
